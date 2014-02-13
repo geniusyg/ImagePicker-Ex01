@@ -72,7 +72,7 @@
 	
 	if(r1==r2 || r1==r3 || r2==r3) {
 		self.lucky.text = [NSString stringWithFormat:@"%d", don*10];
-	} else if(r1==r2 && r2==r3) {
+	} else if(r1==r2 && r1==r3) {
 		self.lucky.text = [NSString stringWithFormat:@"%d", don*100];
 	} else {
 		self.lucky.text = @"빵";
